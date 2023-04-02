@@ -1,0 +1,75 @@
+*{margin:0;padding:0}
+
+body{width:1000px;}
+
+img{height:40px}
+
+h1{font-size:1.2em;color:gray}
+
+a{text-decoration:none;color:gray;}
+
+a:hover{color:#005c53;border-bottom:3px solid #005c53}
+
+div.container{display:flex;flex-direction:row;gap:5px}
+
+ul.list1{list-style-type:none;font-size:1em;display:flex;flex-direction:row;justify-content:space-between;gap:15px;font-weight:bold}
+
+
+.element1{margin:5px 0 0 10px}
+
+.element2{margin:15px 15px 0 0;}
+
+.element3{margin-top:15px}
+
+.container1{display:flex;gap:15px;margin:10px 0 0 215px}
+
+.element4,.element5,.element6,.element7{border:1px solid gray;padding:5px 10px 5px 10px;border-radius:20px;height:20px;width:100px}
+
+.element4:hover,.element5:hover,.element6:hover,.element7:hover{background:#005c53}
+
+
+
+.phone,.tablet,.tv,.chromebook{color:gray;text-decoration:none;font-weight:bold;font-size:1em}
+
+.recommended{margin-left:220px;margin-top:40px}
+
+.container2{margin:30px 0 0 218px}
+
+ ul.list2{display:flex;flex-direction:row ;gap:10px;list-style-type:none;margin:30px 0 0 3px}
+ 
+ .container3{display:flex;flex-direction:row;justify-content: center;gap:15px; align-items :center;margin-top:30px;margin-left: 350px;}
+ 
+ .card1,.card2,.card3{height: 150px; width: 300px;border-radius: 5px;}
+
+ .card1{margin-left: 20px;}
+
+ .container4{display:flex;flex-direction:row;gap:25px; align-items :center;margin-top: 15px;margin-left: 203px;}
+
+ .logo4,.logo5,.logo6{height: 60px; width: 70px;border-radius: 10px;}
+
+ .group1,.group2,.group3{display: flex;}
+
+.group1{margin-left: 15px;}
+
+.group2{margin-left: 140px;}
+
+.group3{margin-left: 110px;}
+
+ figcaption{margin-left: 10px;}
+
+
+ a.links2{border: 1px solid gray;padding: 5px 15px 5px 15px;border-radius: 15px;}
+
+ a.links2:hover{background-color:;}
+
+ .container5{display:flex;flex-direction:row;align-items :center;margin: 25px 0 0 220px;}
+
+ ol{list-style-position: outside;}
+
+ li{display: flex;gap: 10px;margin-bottom: 25px;}
+
+ .element{height: 50px;border-radius: 8px;}
+
+ .list4{margin-left: 80px;}
+
+ .list5{margin-left: 80px;}
