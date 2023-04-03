@@ -8,11 +8,11 @@ h1{font-size:1.2em;color:gray}
 
 a{text-decoration:none;color:gray;}
 
-a:hover{color:#005c53;border-bottom:3px solid #005c53}
+.games:hover,.apps:hover,.kids:hover{padding-bottom: 15px;border-bottom: 3px solid #005c53 ;color:#66F58A ;}
 
 div.container{display:flex;flex-direction:row;gap:5px}
 
-ul.list1{list-style-type:none;font-size:1em;display:flex;flex-direction:row;justify-content:space-between;gap:15px;font-weight:bold}
+ul.list1{list-style-type: none;font-size:1em;display:flex;flex-direction:row;justify-content:space-between;gap:35px;font-weight:bold}
 
 
 .element1{margin:5px 0 0 10px}
@@ -23,11 +23,15 @@ ul.list1{list-style-type:none;font-size:1em;display:flex;flex-direction:row;just
 
 .container1{display:flex;gap:15px;margin:10px 0 0 215px}
 
-.element4,.element5,.element6,.element7{border:1px solid gray;padding:5px 10px 5px 10px;border-radius:20px;height:20px;width:100px}
+.element4,.element5,.element6,.element7{border:1px solid gray;padding:5px 10px 5px 10px;border-radius:20px;height:20px;width:130px;display: flex;gap: 5px;padding-left: 10px;}
 
-.element4:hover,.element5:hover,.element6:hover,.element7:hover{background:#005c53}
+.element4:hover,.element5:hover,.element6:hover,.element7:hover,.links2:hover{background: #66F58A;color:#005c53;}
 
+.logo1,.logo2{height: 20px;}
 
+.logo3{height: 15px;}
+
+.logo8{height: 30px;}
 
 .phone,.tablet,.tv,.chromebook{color:gray;text-decoration:none;font-weight:bold;font-size:1em}
 
@@ -58,18 +62,16 @@ ul.list1{list-style-type:none;font-size:1em;display:flex;flex-direction:row;just
  figcaption{margin-left: 10px;}
 
 
- a.links2{border: 1px solid gray;padding: 5px 15px 5px 15px;border-radius: 15px;}
+ a.links2{border: 1px solid gray;padding: 5px 15px 5px 15px;border-radius: 15px;font-weight: bold;}
 
  a.links2:hover{background-color:;}
 
  .container5{display:flex;flex-direction:row;align-items :center;margin: 25px 0 0 220px;}
 
- ol{list-style-position: outside;}
-
  li{display: flex;gap: 10px;margin-bottom: 25px;}
 
- .element{height: 50px;border-radius: 8px;}
+ .element{height: 70px;border-radius: 8px;}
 
- .list4{margin-left: 80px;}
+ .list4{margin-left: 70px;}
 
- .list5{margin-left: 80px;}
+ .list5{margin-left: 70px;}
