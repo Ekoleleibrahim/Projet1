@@ -29,7 +29,7 @@ ul.list1{list-style-type: none;font-size:1em;display:flex;flex-direction:row;jus
 
 .logo1,.logo2{height: 20px;}
 
-.logo3{height: 15px;}
+.logo3{height: 15px;padding-top: 3px;}
 
 .logo8{height: 30px;}
 
