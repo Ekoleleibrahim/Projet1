@@ -121,7 +121,8 @@ ul.list1
     display: flex;
     gap: 5px;
     padding-left: 10px;
-    width: 130px;
+    width: 140px;
+    text-indent: 5px;
 }
 
 .element4:hover,.element5:hover,.element6:hover,.element7:hover,.links2:hover
