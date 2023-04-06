@@ -1,83 +1,281 @@
-*{margin:0;padding:0}
+*
+{
+    margin:0;padding:0
+}
 
-body{width:1000px;}
+body
+{
+    width:1000px;
+}
 
-img{height:40px}
+img
+{
+    height:40px
+}
 
-h1{font-size:1.2em;color:gray}
+h1
+{
+    font-size:1.2em;color:gray
+}
 
-a{text-decoration:none;color:gray;}
+a
+{
+    text-decoration:none;color:gray;
+}
 
-.games:hover,.apps:hover,.kids:hover{padding-bottom: 15px;border-bottom: 3px solid #005c53 ;color:#66F58A ;}
+.games:hover,.apps:hover,.kids:hover
+{
+    padding-bottom: 15px;
+    border-bottom: 3px solid #005c53 ;
+    color:#66F58A ;
+}
 
-div.container{display:flex;flex-direction:row;gap:5px}
+div.container
+{
+    display:flex;
+    flex-direction:row;
+    gap:5px
+}
 
-ul.list1{list-style-type: none;font-size:1em;display:flex;flex-direction:row;justify-content:space-between;gap:35px;font-weight:bold}
+ul.list1
+{
+    list-style-type: none;
+    font-size:1em;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap:35px;
+    font-weight:bold
+}
 
 
-.element1{margin:5px 0 0 10px}
+.element1
+{
+    margin:5px 0 0 10px
+}
 
-.element2{margin:15px 15px 0 0;}
+.element2
+{
+    margin:15px 15px 0 0;
+}
 
-.element3{margin-top:15px}
+.element3
+{
+    margin-top:15px
+}
 
-.container1{display:flex;gap:15px;margin:10px 0 0 215px}
+.container1
+{
+    display:flex;
+    gap:15px;
+    margin:10px 0 0 215px
+}
 
-.element4{border:1px solid gray;padding:5px 10px 5px 10px;border-radius:20px;height:20px;width:130px;display: flex;gap: 5px;padding-left: 10px;width: 90px;text-indent: 5px;}
+.element4
+{
+    border:1px solid gray;
+    padding:5px 10px 5px 10px;
+    border-radius:20px;
+    height:20px;
+    width:130px;
+    display: flex;
+    gap: 5px;
+    padding-left: 10px;
+    width: 90px;
+    text-indent: 5px;
+}
 
-.element5{border:1px solid gray;padding:5px 10px 5px 10px;border-radius:20px;height:20px;width:130px;display: flex;gap: 5px;padding-left: 10px;width: 80px;}
+.element5
+{
+    border:1px solid gray;
+    padding:5px 10px 5px 10px;
+    border-radius:20px;
+    height:20px;
+    width:130px;
+    display: flex;
+    gap: 5px;
+    padding-left: 10px;
+    width: 80px;
+}
 
-.element6{border:1px solid gray;padding:5px 10px 5px 10px;border-radius:20px;height:20px;width:130px;display: flex;gap: 5px;padding-left: 10px;width: 70px;}
+.element6
+{
+    border:1px solid gray;
+    padding:5px 10px 5px 10px;
+    border-radius:20px;
+    height:20px;
+    width:130px;
+    display: flex;
+    gap: 5px;
+    padding-left: 10px;
+    width: 70px;
+}
 
-.element7{border:1px solid gray;padding:5px 10px 5px 10px;border-radius:20px;height:20px;width:130px;display: flex;gap: 5px;padding-left: 10px;width: 120px;}
+.element7
+{
+    border:1px solid gray;
+    padding:5px 10px 5px 10px;
+    border-radius:20px;
+    height:20px;
+    width:130px;
+    display: flex;
+    gap: 5px;
+    padding-left: 10px;
+    width: 130px;
+}
 
-.element4:hover,.element5:hover,.element6:hover,.element7:hover,.links2:hover{background: #66F58A;color:#005c53;}
+.element4:hover,.element5:hover,.element6:hover,.element7:hover,.links2:hover
+{
+    background: #66F58A;
+    color:#005c53;
+}
 
-.logo1,.logo2{height: 20px;}
+.logo1,.logo2
+{
+    height: 20px;
+}
 
-.logo3{height: 15px;padding-top: 3px;}
+.logo3
+{
+    height: 15px;
+    padding-top: 3px;
+}
 
-.logo8{height: 25px;padding-top: 3px;}
+.logo8
+{
+    height: 25px;
+    padding-top: 3px;
+}
 
-.phone,.tablet,.tv,.chromebook{color:gray;text-decoration:none;font-weight:bold;font-size:1em}
+.phone,.tablet,.tv,.chromebook
+{
+    color:gray;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:1em
+}
 
-.recommended{margin-left:220px;margin-top:40px}
+.recommended
+{
+    margin-left:220px;
+    margin-top:40px
+}
 
-.container2{margin:30px 0 0 218px}
+.container2
+{
+    margin:30px 0 0 218px
+}
 
- ul.list2{display:flex;flex-direction:row ;gap:10px;list-style-type:none;margin:30px 0 0 3px}
+ul.list2
+{
+    display:flex;
+    flex-direction:row ;
+    gap:10px;
+    list-style-type:none;
+    margin:30px 0 0 3px
+}
  
- .container3{display:flex;flex-direction:row;justify-content: center;gap:15px; align-items :center;margin-top:30px;margin-left: 350px;}
+.container3
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:15px; 
+    align-items :center;
+    margin-top:30px;
+    margin-left: 350px;
+}
  
- .card1,.card2,.card3{height: 150px; width: 300px;border-radius: 5px;}
+.card1,.card2,.card3
+{
+    height: 150px;
+    width: 300px;
+    border-radius: 5px;
+}
 
- .card1{margin-left: 20px;}
+.card1
+{
+    margin-left: 20px;
+}
 
- .container4{display:flex;flex-direction:row;gap:25px; align-items :center;margin-top: 15px;margin-left: 203px;}
+.container4
+{
+    display:flex;
+    flex-direction:row;
+    gap:25px; 
+    align-items :center;
+    margin-top: 15px;
+    margin-left: 203px;
+}
 
- .logo4,.logo5,.logo6{height: 60px; width: 70px;border-radius: 10px;}
+.logo4,.logo5,.logo6
+{
+    height: 60px;
+    width: 70px;
+    border-radius: 10px;
+}
 
- .group1,.group2,.group3{display: flex;}
+.group1,.group2,.group3
+{
+    display: flex;
+}
 
-.group1{margin-left: 15px;}
+.group1
+{
+    margin-left: 15px;
+}
 
-.group2{margin-left: 140px;}
+.group2
+{
+    margin-left: 140px;
+}
 
-.group3{margin-left: 110px;}
+.group3
+{
+    margin-left: 110px;
+}
 
- figcaption{margin-left: 10px;}
+figcaption
+{
+    margin-left: 10px;
+}
 
 
- a.links2{border: 1px solid gray;padding: 5px 15px 5px 15px;border-radius: 15px;font-weight: bold;}
+a.links2
+{
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+}
 
- a.links2:hover{background-color:;}
+.container5
+{
+    display:flex;
+    flex-direction:row;
+    align-items :center;
+    margin: 25px 0 0 220px;
+}
 
- .container5{display:flex;flex-direction:row;align-items :center;margin: 25px 0 0 220px;}
+li
+{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
 
- li{display: flex;gap: 10px;margin-bottom: 25px;}
+.element
+{
+    height: 70px;
+    border-radius: 8px;
+}
 
- .element{height: 70px;border-radius: 8px;}
+.list4
+{
+    margin-left: 70px;
+}
 
- .list4{margin-left: 70px;}
-
- .list5{margin-left: 70px;}
+.list5
+{
+    margin-left: 70px;
+}
