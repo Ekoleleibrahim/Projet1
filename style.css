@@ -7,6 +7,7 @@
 body
 {
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 h1
@@ -64,7 +65,7 @@ ul.list1
 {
     padding-bottom: 10px;
     border-bottom: 3px solid #005c53 ;
-    color:#66F58A ;
+    color:#3e6247 ;
 }
 
 .container1
@@ -101,7 +102,7 @@ ul.list1
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
-    background-color: #a2efb5;
+    background-color: #dbe1dd;
 }
 
 .phone
@@ -135,16 +136,14 @@ ul.list1
 
 .Recommended
 {
-    margin-left:220px;
-    margin-top:40px
+    
+    margin:20px 170px;
 }
 
 .container3
 {
     display:flex;
-    flex-direction:row;
     justify-content: center;
-    gap:15px; 
     align-items :center;
    
 }
@@ -156,19 +155,13 @@ ul.list1
     border-radius: 5px;
 }
 
-.card1
-{
-    margin-left: 20px;
-}
-
 .container4
 {
-    display:flex;
-    flex-direction:row;
-    justify-content: flex-start;
-    gap:25px; 
-    align-items :center;
-    margin-left: 270px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+
 }
 
 .logo4,.logo5,.logo6
@@ -178,14 +171,536 @@ ul.list1
     border-radius: 10px;
 }
 
-.group2
+.group1,.group2,.group3
 {
-    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
-.group3
+.container2
 {
-    margin-left: 50px;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+
+ul.list2
+{
+    display:flex;
+    flex-direction:row ;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    list-style-type:none;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+
+a.links2
+{
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a.links2:hover
+{
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #a2efb5;
+}
+
+.container5
+{
+    display:grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 100px 100px 100px;
+    margin:10px;
+}
+
+.flexible
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+
+.element
+{
+    height: 70px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:800px) {
+
+    div.container
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0;
+    }
+
+    nav
+    {
+        padding-left:5px;
+    }
+
+    ul.list1
+    {
+        margin-bottom: 20px;
+        margin-left: 5px;
+        list-style-type: none;
+        font-size:1em;
+        font-weight:bold;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: flex-start;
+        gap:0;
+    }
+
+    .games,.apps,.kids
+    {
+        padding-bottom: 10px;
+        font-size: 1.1em;
+    }
+    .container1
+    {
+        margin-left:30px;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,200px);
+        grid-template-rows: auto auto;
+        justify-content: flex-start;
+    }
+
+    .Recommended
+    {
+        
+        margin:20px 10px;
+    }
+
+    .container3
+    {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items :center;
+        gap: 0;
+    
+    }
+    
+    .card1,.card2,.card3
+    {
+        height: auto;
+        width: 120px;
+        border-radius: 5px;
+    }
+
+    .container4
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+
+    }
+
+    .logo4,.logo5,.logo6
+    {
+        height: auto;
+        width: 50px;
+        border-radius: 10px;
+    }
+
+    .group1
+    {
+        grid-area: groupe1;
+    }
+    .group2
+    {
+        grid-area: groupe2;
+    }
+    .group3
+    {
+        grid-area: groupe3;
+        grid-column: 100px;
+    }
+
+    .container2
+    {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    ul.list2
+    {
+        display:flex;
+        flex-direction:row ;
+        justify-content: flex-start;
+        align-items: center;
+        gap:10px;
+        list-style-type:none;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+
+    a.links2
+    {
+        border: 1px solid gray;
+        padding: 5px 15px 5px 15px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    a.links2:hover
+    {
+        border: 1px solid gray;
+        padding: 5px 15px 5px 15px;
+        border-radius: 5px;
+        font-weight: bold;
+        background-color: #dbe1dd;
+    }
+
+    .container5
+    {
+        display:grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(4,200px);
+        grid-auto-rows: 100px;
+        margin:10px;
+    }
+
+    .flexible
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        gap:0;
+        margin-bottom: 0;
+    }
+
+    .element
+    {
+        height: 50px;
+        border-radius: 8px;
+    }
+
+}
+
+@media screen and (min-width:801px) {
+    div.container
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+    }
+
+    nav
+    {
+        padding-left: 15px;
+    }
+
+    ul.list1
+    {
+        list-style-type: none;
+        font-size:1em;
+        font-weight:bold;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-evenly;
+        align-items: center;
+        gap:20px;
+    }
+
+    .games,.apps,.kids
+    {
+        padding-bottom: 10px;
+        font-size: 1.1em;
+    }
+    .container1
+    {
+        margin-top: 20px;
+        margin-left:5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 10px;
+        
+    }
+
+    .Recommended
+    {
+        
+        margin:20px 75px;
+    }
+
+    .container3
+    {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items :center;
+        gap: 0;
+    
+    }
+    
+    .card1,.card2,.card3
+    {
+        height: auto;
+        width: 250px;
+        border-radius: 5px;
+    }
+
+    .container4
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 15px;
+
+    }
+
+    .logo4,.logo5,.logo6
+    {
+        height: auto;
+        width: 50px;
+        border-radius: 10px;
+    }
+
+    .container2
+    {
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+
+    ul.list2
+    {
+        display:flex;
+        flex-direction:row ;
+        justify-content: flex-start;
+        align-items: center;
+        gap:10px;
+        list-style-type:none;
+        margin-top: 20px;
+        
+    }
+
+    .container5
+    {
+        display:grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(4,200px);
+        justify-content: space-between;
+        align-content: center;
+        grid-auto-rows: 100px;
+        margin:10px;
+    }
+
+    .flexible
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        gap:0;
+        margin-bottom: 0;
+    }
+
+    .element
+    {
+        height: 70px;
+        border-radius: 8px;
+    }
+
+}
+
+@media screen and (min-width:1100px){
+
+    *
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+h1
+{
+    font-size:1.2em;
+    color:gray
+}
+
+div.container
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+img
+{
+    height:40px;
+    margin:10px;
+}
+
+nav
+{
+    padding-left: 50px;
+}
+
+a
+{
+    text-decoration:none;
+    color:gray;
+}
+
+ul.list1
+{
+    margin-left: 120px;
+    list-style-type: none;
+    font-size:1em;
+    font-weight:bold;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: center;
+    gap:20px;
+}
+
+.games,.apps,.kids
+{
+    padding-bottom: 15px;
+    font-size: 1.2em;
+}
+
+
+.games:hover,.apps:hover,.kids:hover
+{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #005c53 ;
+    color:#3e6247 ;
+}
+
+.container1
+{
+    width: 700px;
+    margin-left:250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.phone,.tablet,.tv,.chromebook
+{
+    padding: 5px 40px;
+    color:gray;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:1em;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.phone:hover,.tablet:hover,.tv:hover,.chromebook:hover
+{
+    padding: 5px 40px;
+    color:gray;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:1em;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #dbe1dd;
+}
+
+.phone
+{
+    background-image: url(images/phone.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.tablet
+{
+    background-image: url(images/tablet.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.tv
+{
+    background-image: url(images/tv.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.chromebook
+{
+    background-image: url(images/Laptop.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.Recommended
+{
+    
+    margin:20px 170px;
+}
+
+.container3
+{
+    display:flex;
+    justify-content: center;
+    align-items :center;
+   
+}
+ 
+.card1,.card2,.card3
+{
+    height: 150px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.container4
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.logo4,.logo5,.logo6
+{
+    height: 60px;
+    width: 70px;
+    border-radius: 10px;
 }
 
 .group1,.group2,.group3
@@ -193,17 +708,13 @@ ul.list1
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-figcaption
-{
-    margin-left: 10px;
+    gap: 5px;
 }
 
 .container2
 {
     margin-top: 30px;
-    margin-left: 218px;
+    margin-left: 170px;
 }
 
 ul.list2
@@ -240,17 +751,18 @@ a.links2:hover
 {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
-    margin: 25px 0 0 220px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: space-evenly;
+    margin:20px;
 }
 
-li
+.flexible
 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    gap: 10px;
+    gap: 5px;
     margin-bottom: 25px;
 }
 
@@ -258,4 +770,5 @@ li
 {
     height: 70px;
     border-radius: 8px;
+}
 }
