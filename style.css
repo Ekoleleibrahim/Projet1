@@ -257,15 +257,15 @@ a.links2:hover
     ul.list1
     {
         margin-bottom: 20px;
-        margin-left: 5px;
+        margin-left: 150px;
         list-style-type: none;
         font-size:1em;
         font-weight:bold;
         display:flex;
         flex-direction:row;
-        justify-content:space-around;
+        justify-content:flex-start;
         align-items: flex-start;
-        gap:0;
+        
     }
 
     .games,.apps,.kids
@@ -378,6 +378,7 @@ a.links2:hover
         grid-template-columns: auto auto;
         grid-template-rows: repeat(4,200px);
         grid-auto-rows: 100px;
+        justify-content: space-between;
         margin:10px;
     }
 
