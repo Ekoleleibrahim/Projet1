@@ -8,6 +8,7 @@ body
 {
     box-sizing: border-box;
     overflow-x: hidden;
+    background-color: #dce2de;
 }
 
 h1
@@ -446,7 +447,7 @@ a.links2:hover
     .Recommended
     {
         
-        margin:20px 75px;
+        margin:20px 25px;
     }
 
     .container3
@@ -485,7 +486,7 @@ a.links2:hover
     .container2
     {
         margin-top: 20px;
-        margin-left: 70px;
+        margin-left: 25px;
     }
 
     ul.list2
